@@ -138,7 +138,7 @@ const TodoApp = ( { todo_list, addTodo, deleteTodo, updateTodo } ) => {
     const deleteRef = doc( dbFS, 'todo-apps', id )
     console.log( 'FOR DELETION :', deleteRef )
 
-    Alert.alert( 'Remove Taodo', 'This action will permanently delete this task. This action cannot be undone!', [
+    Alert.alert( 'Remove Todo', 'This action will permanently delete this task. This action cannot be undone!', [
       { 
 
         text: 'Confirm',
