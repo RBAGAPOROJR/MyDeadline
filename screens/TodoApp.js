@@ -21,8 +21,6 @@ import { collection, addDoc, updateDoc, deleteDoc, doc, onSnapshot } from 'fireb
 
 
 
-
-
 const TodoApp = ( { todo_list, addTodo, deleteTodo, updateTodo } ) => { 
 
   const [data, setData] = React.useState( [] )
@@ -194,7 +192,7 @@ const TodoApp = ( { todo_list, addTodo, deleteTodo, updateTodo } ) => {
     <View style={ styles.container } >
       <Card title="Card Title">
         <Text style={ styles.paragraph } >
-          ToDo App with React Native and Redux
+          MyDeadline App
         </Text>
       </Card>
       <Spacer />

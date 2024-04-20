@@ -13,7 +13,7 @@ const App = () => {
       <TodoApp/>
       <View>
       <Text style={ styles.bottomText } >
-        INFO6132 | Lab 02 Activitiy © Ronald Bagaporo Jr.
+        2024 © Ronald Bagaporo Jr.
       </Text>
       </View>
     </Provider>
